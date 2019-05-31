@@ -15,7 +15,7 @@ let handleClick = (_event) => Js.log("clicked!");
      Component1.makeProps(~message="hello", ())
    )` */
 [@react.component]
-let make = (~message) =>
+let make = (~name) =>
   <div onClick={handleClick}>
-    {ReasonReact.string(message)}
+    {ReasonReact.string(name)}
   </div>;
