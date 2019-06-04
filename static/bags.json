@@ -1,0 +1,16 @@
+{
+  "bags": [
+    {
+      "id": 1,
+      "name": "bag1",
+      "type": "small",
+      "image": "white_50x100"
+    },
+    {
+      "id": 2,
+      "name": "bag2",
+      "type": "big",
+      "image": "white_50x100"
+    }
+  ]
+}
