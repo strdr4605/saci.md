@@ -1,0 +1,22 @@
+{
+  "bags": [
+    {
+      "id": "1",
+      "name": "bag1",
+      "type": "small",
+      "image": "static/images/white_50x100.png"
+    },
+    {
+      "id": "2",
+      "name": "bag2",
+      "type": "green",
+      "image": "static/images/green_55x95.png"
+    },
+    {
+      "id": "3",
+      "name": "bag3",
+      "type": "red",
+      "image": "static/images/red_55x95.png"
+    }
+  ]
+}
