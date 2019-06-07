@@ -1,9 +1,10 @@
-let handleClick = (_event) => Js.log("clicked!");
+let bags = Data.bags;
 
 [@react.component]
 let make = (~name) =>
-  <div onClick={handleClick}>
-    {ReasonReact.string(name)}
-    <img src=(Images_Paths.white_50x100)/>
-    {ReasonReact.string(Js.Json.stringify(Data.bagsJson))}
+  <div id="main">
+    <header> <h1> {ReasonReact.string(name)} </h1> </header>
+    <section>
+      {bags |> Array.map(bag => <Bag bag key={bag.id} />) |> ReasonReact.array}
+    </section>
   </div>;
