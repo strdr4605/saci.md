@@ -1,25 +1,25 @@
-
 {
-  "name": "react-hooks-template",
+  "name": "sacimd",
   "reason": {
     "react-jsx": 3
   },
   "sources": {
-    "dir" : "src",
-    "subdirs" : true
+    "dir": "src",
+    "subdirs": true
   },
-  "package-specs": [{
-    "module": "commonjs",
-    "in-source": false
-  }],
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": false
+    }
+  ],
   "suffix": ".bs.js",
   "namespace": true,
-  "bs-dependencies": [
-    "reason-react"
-  ],
+  "bs-dependencies": ["reason-react", "@ryb73/decco"],
+  "ppx-flags": ["@ryb73/decco/ppx/ppx_decco.sh"],
   "warnings": {
-    "number": "+A-48-42",
-    "error": "+A-3-44-102"
+    "number": "+A-48-42-40-4",
+    "error": "+A-3-44-102-40-4"
   },
   "refmt": 3
 }
